@@ -8,7 +8,6 @@ body {
 .cakebody {
   background-color: #ee9ca7;
   /*background-color: #ebd9c8;*/
-  margin-top: 10px;
   margin-bottom: 10px;
 
 }
@@ -16,17 +15,20 @@ body {
 #cake {
   display: block;
   position: relative;
-  margin: 0 auto 0 auto;
+  margin: -10em auto 0 auto;
 }
+
 
 /* ============================================== Candle
 */
 .velas {
   background: #ffffff;
   border-radius: 10px;
-  position: relative;
-  /*top: 228px;*/
+  position: absolute;
+  top: 228px;
   left: 50%;
+  margin-left: -2.4px;
+  margin-top: -8.33333333px;
   width: 5px;
   height: 35px;
   -webkit-transform: translateY(-300px);

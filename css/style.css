@@ -20,6 +20,19 @@ body {
   background-size: cover;
 }
 
+#stage {
+	font-family: 'Reem Kufi', sans-serif;
+	/*background: url("../images/stage-four.jpg") center center no-repeat ;*/
+	background-size: cover;
+	color: white;
+	height: 130%;
+	width: 100%;
+  background-color: #ee9ca7;
+
+	/*display: flex;
+	align-items: center;*/
+}
+
 h1 {
   color: #41292C;
   font-family: 'Covered By Your Grace', sans-serif;
@@ -40,6 +53,11 @@ h2 {
   font-weight: 500;
   text-align: left;
   text-transform: uppercase;
+}
+
+.display-4 {
+    font-size: 4rem;
+    font-weight: 300;
 }
 
 ul {
