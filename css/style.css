@@ -1,13 +1,13 @@
 body {
   padding: 0;
   margin: 0;
-  background: #f7f7f7;
+  background: #ead0b7;
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
 }
 
 /** Header styles **/
@@ -64,18 +64,51 @@ ul {
   margin: 0 auto;
   padding: 0;
   width: 50%;
+  text-align: center;
 }
 
 li {
   border-bottom: 1px solid #E4BB97;
   list-style: none;
-  margin: 100px 0px;
+  margin: 0px 0px;
   padding-bottom: 60px;
+}
+
+.charlene_1, .charlene_2 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 330px;
+	height: 440px;
+	/* border-radius: 100%; */
+}
+
+.charlene_1 {
+	border-radius: 100%;
+}
+
+.charlene_3, .charlene_4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 350px;
+	height: 350px;
+	/* border-radius: 100%; */
+}
+
+.charlene_5 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 420px;
+	height: 280px;
+	/* border-radius: 100%; */
 }
 
 p {
   color: #444444;
   line-height: 32px;
+  text-align: left;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -91,3 +124,8 @@ a {
   text-decoration: none;
   letter-spacing: 2px;
 }
+
+.container {
+	text-align: center;
+}
+
