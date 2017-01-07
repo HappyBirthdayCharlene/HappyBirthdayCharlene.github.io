@@ -137,7 +137,38 @@ body {
             transform: translateY(0);
   }
 }
+
+.display-4 {
+    font-size: 4rem;
+    font-weight: 300;
+	-webkit-transform: translateY(300px);
+          transform: translateY(300px);
+    -webkit-animation: theme_in 2500ms 6.5s ease-out forwards;
+          animation: theme_in 2500ms 6.5s ease-out forwards;
+}
+
+@-webkit-keyframes theme_in {
+  from {
+	opacity: 0;
+  }
+  to {
+	opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes theme_in {
+  from {
+	opacity: 0;
+  }
+  to {
+	opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
 .text {
+  margin-top: 20px;
   color: #8b6a60;
   font-family: 'Reem Kufi', sans-serif;
   /*font-weight: 300;*/

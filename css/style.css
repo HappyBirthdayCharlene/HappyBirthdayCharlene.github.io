@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background: #ead0b7;
+  
   /* Old browsers */
   /* background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
   /* FF3.6-15 */
@@ -55,15 +56,12 @@ h2 {
   text-transform: uppercase;
 }
 
-.display-4 {
-    font-size: 4rem;
-    font-weight: 300;
-}
+
 
 ul {
   margin: 0 auto;
   padding: 0;
-  width: 50%;
+  width: 60%;
   text-align: center;
 }
 
@@ -74,6 +72,13 @@ li {
   padding-bottom: 60px;
 }
 
+.aquarius {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 450px;
+}
 .charlene_1, .charlene_2 {
 	text-align: center;
 	margin-top: 10px;
@@ -106,26 +111,25 @@ li {
 }
 
 p {
-  color: #444444;
+  color: #8a4b38;
   line-height: 32px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-family: 'Microsoft YaHei','Raleway', sans-serif;
   font-size: 20px;
   font-weight: 100;
 }
 
-a {
-  color: #214E34;
-  font-family: 'Raleway', sans-serif;
+.verse {
+  color: #8a4b38;
+  font-family: 'Microsoft YaHei','Raleway', sans-serif;
   font-size: 13px;
-  font-weight: 900;
-  text-align: left;
-  text-transform: uppercase;
+  font-weight: 100;
+  text-align: right;
   text-decoration: none;
   letter-spacing: 2px;
 }
 
 .container {
-	text-align: center;
+	height: 10px;
 }
 
