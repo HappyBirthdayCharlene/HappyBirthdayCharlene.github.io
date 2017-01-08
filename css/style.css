@@ -15,7 +15,6 @@ body {
 
 .header {
   height: 400px;
-  background-image: url("../images/Happy_birthday-8.jpg");
   background-color: #ee9ca7;
   background-position: center center;
   background-size: cover;
@@ -70,6 +69,7 @@ li {
   list-style: none;
   margin: 0px 0px;
   padding-bottom: 60px;
+  display: inline;
 }
 
 .aquarius {
@@ -133,3 +133,33 @@ p {
 	height: 10px;
 }
 
+span.st_link{
+	background-color:#000;
+	float:left;
+	position:relative;
+	line-height:50px;
+	padding:0px 20px;
+	-moz-box-shadow:0px 0px 2px #000;
+	-webkit-box-shadow:0px 0px 2px #000;
+	box-shadow:0px 0px 2px #000;
+	color: #FFFFFF;
+}
+
+span.st_arrow_down, span.st_arrow_up{
+	position:absolute;
+	margin-left:15px;
+	width:40px;
+	height:50px;
+	cursor:pointer;
+	-moz-box-shadow:0px 0px 2px #000;
+	-webkit-box-shadow:0px 0px 2px #000;
+	box-shadow:0px 0px 2px #000;
+}
+
+span.st_arrow_down{
+	background:#000 url(../images/down.png) no-repeat center center;
+}
+
+span.st_arrow_up{
+	background:#000 url(../images/up.png) no-repeat center center;
+}
