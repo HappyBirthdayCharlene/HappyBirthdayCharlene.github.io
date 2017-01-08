@@ -81,6 +81,7 @@ li .title {
   font-family: 'Microsoft YaHei','Raleway', sans-serif;
   font-size: 20px;
   font-weight: 100;
+  margin: 20px;
 }
 
 .heartfeelings {
@@ -90,7 +91,7 @@ li .title {
 }
 
 li:hover .heartfeelings{
-	max-height: 500px;
+	max-height: 800px;
 }
 
 .aquarius {
@@ -148,19 +149,6 @@ p {
   text-align: right;
   text-decoration: none;
   letter-spacing: 2px;
-}
-
-
-span.st_link{
-	background-color:#000;
-	float:left;
-	position:relative;
-	line-height:50px;
-	padding:0px 20px;
-	-moz-box-shadow:0px 0px 2px #000;
-	-webkit-box-shadow:0px 0px 2px #000;
-	box-shadow:0px 0px 2px #000;
-	color: #FFFFFF;
 }
 
 span.st_arrow_down, span.st_arrow_up{
