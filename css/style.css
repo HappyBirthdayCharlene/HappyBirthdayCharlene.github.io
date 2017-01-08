@@ -72,6 +72,27 @@ li {
   display: inline;
 }
 
+
+
+li .title {
+  color: #8a4b38;
+  line-height: 32px;
+  text-align: left;
+  font-family: 'Microsoft YaHei','Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.heartfeelings {
+	max-height: 0;
+	overflow: hidden;
+	transition: ease 1s;
+}
+
+li:hover .heartfeelings{
+	max-height: 500px;
+}
+
 .aquarius {
 	text-align: center;
 	margin-top: 10px;
@@ -129,9 +150,6 @@ p {
   letter-spacing: 2px;
 }
 
-.container {
-	height: 10px;
-}
 
 span.st_link{
 	background-color:#000;

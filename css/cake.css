@@ -143,8 +143,8 @@ body {
     font-weight: 300;
 	-webkit-transform: translateY(300px);
           transform: translateY(300px);
-    -webkit-animation: theme_in 2500ms 6.5s ease-out forwards;
-          animation: theme_in 2500ms 6.5s ease-out forwards;
+    -webkit-animation: theme_in 2500ms 6.5s ease-out both;
+          animation: theme_in 2500ms 6.5s ease-out both;
 }
 
 @-webkit-keyframes theme_in {
