@@ -60,7 +60,7 @@ h2 {
 ul {
   margin: 0 auto;
   padding: 0;
-  width: 60%;
+  width: 65%;
   text-align: center;
 }
 
@@ -84,6 +84,11 @@ li .title {
   margin: 20px;
 }
 
+.arrow {
+  margin: 2px;
+  transition: ease 1s;
+}
+
 .heartfeelings {
 	max-height: 0;
 	overflow: hidden;
@@ -94,12 +99,16 @@ li:hover .heartfeelings{
 	max-height: 800px;
 }
 
-.aquarius {
+li:hover .arrow {
+	transform: rotate(180deg);
+}
+.aquarius, .libra{
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 300px;
-	height: 450px;
+	width: 200px;
+	height: 300px;
+	margin: 20px;
 }
 .charlene_1, .charlene_2 {
 	text-align: center;
@@ -141,6 +150,10 @@ p {
   font-weight: 100;
 }
 
+.constellation p {
+	text-align: left;
+}
+
 .verse {
   color: #8a4b38;
   font-family: 'Microsoft YaHei','Raleway', sans-serif;
@@ -151,21 +164,6 @@ p {
   letter-spacing: 2px;
 }
 
-span.st_arrow_down, span.st_arrow_up{
-	position:absolute;
-	margin-left:15px;
-	width:40px;
-	height:50px;
-	cursor:pointer;
-	-moz-box-shadow:0px 0px 2px #000;
-	-webkit-box-shadow:0px 0px 2px #000;
-	box-shadow:0px 0px 2px #000;
-}
 
-span.st_arrow_down{
-	background:#000 url(../images/down.png) no-repeat center center;
-}
 
-span.st_arrow_up{
-	background:#000 url(../images/up.png) no-repeat center center;
-}
+
