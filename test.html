@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+<audio id="music2" src="mp3/happybirthday_multilanguage.mp3" autoplay="autoplay">你的浏览器不支持audio标签。</audio> 
+<a href="javascript:playPause();"><i class="material-icons">pause</i></a> 
+
+<script>
+  function playPause() { 
+    var music = document.getElementById('music2'); 
+    var music_btn = document.getElementById('music_btn2'); 
+    if (music.paused){ 
+        music.play(); 
+        //music_btn.src = 'images/down.png'; 
+    } 
+    else{ 
+        music.pause(); 
+        //music_btn.src = 'images/up.png';  
+    } 
+  } 
+</script>
+</body>
+</html>
