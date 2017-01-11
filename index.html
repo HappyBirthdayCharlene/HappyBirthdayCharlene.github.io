@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/cake.css">
 </head>
 <body>
-  <div id="audio_btn" class="rotate">
+  <div id="audio_btn">
     <audio id="media" autoplay="autoplay">
 	  <source src="mp3/happybirthday_multilanguage.mp3" type="audio/mp3" />
     </audio>
@@ -256,17 +256,19 @@
 	</li>
   </ul>
   
-  <script>
+  
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript">
 	var x = document.getElementById("media"); 
 	$(function(){
-     $("#audio_btn").click(function(){
-         $(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
-         
-         //控制背景音乐 播放或暂停            
-         if($(this).hasClass("rotate")){
+     $("#audio_btn").click(function(){ 
+                    
+         if(x.paused){
              x.play();
+			 this.style.animationPlayState="running"
          }else{
              x.pause();
+			 this.style.animationPlayState="paused"
          }
      })
  });

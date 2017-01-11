@@ -4,11 +4,11 @@ body {
   background: #ead0b7;
   
   /* Old browsers */
-  /* background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
+  /* background: -moz-linear-gradient(45deg, #ee9ca7; 0%, #ead0b7 100%); */
   /* FF3.6-15 */
-  /* background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
+  /* background: -webkit-linear-gradient(45deg, #ee9ca7 0%, #ead0b7 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  /* background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%); */
+  /* background: linear-gradient(45deg, #ee9ca7 0%, #ead0b7 100%); */
 }
 
 /** Header styles **/
@@ -27,7 +27,7 @@ body {
 	color: white;
 	height: 130%;
 	width: 100%;
-  background-color: #ee9ca7;
+    background-color: #ee9ca7;
 
 	/*display: flex;
 	align-items: center;*/
@@ -63,14 +63,13 @@ h2 {
   background-image: url("../images/audio.png");
   background-size: contain;
   position: fixed;
-}
 
-.rotate {
   -webkit-animation: rotating 1.2s linear infinite;
   -moz-animation: rotating 1.2s linear infinite;
   -o-animation: rotating 1.2s linear infinite;
-  animation: rotating 1.2s linear infinite
+  animation: rotating 1.2s linear infinite;
 }
+
 
 @-webkit-keyframes rotating {
   from { -webkit-transform: rotate(0) }
